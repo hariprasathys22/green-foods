@@ -7,16 +7,28 @@
 .container {
   position: relative;
   padding: 0 100px;
+  min-height: 100vh;
 }
 .container::before{
     content: '';
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     width: 350px;
     height: 100%;
     background: #333;
     z-index: -2;
+}
+.container::after{
+    content: 'Healthy';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 18vw;
+    z-index: -2;
+    font-weight: 700;
+    color: #000; 
+    opacity: 0.04;
 }
 header {
   display: flex;
@@ -48,7 +60,11 @@ header ul li a{
     position: relative;
     text-decoration: none;
     font-size: 18px;
-    padding-left: 4px 10px;
+    padding: 4px 10px;
     color: #333;
     text-decoration: none;
+}
+header ul li:nth-child(3) a,
+header ul li:nth-child(4) a{
+    color: #fff;
 }
