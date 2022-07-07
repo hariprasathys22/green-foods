@@ -24,7 +24,7 @@
 ---
 ## [HTML Document](https://github.com/hariprasathys22/green-foods/blob/master/index.html)
 
-## ![Front End Design Of the Website](https://github.com/hariprasathys22/green-foods/blob/master/images/PSD.psd)
+## ![Front End Design Of the Website](https://github.com/hariprasathys22/green-foods/blob/master/images/Screenshot_2022-07-07_23-43-46.png)
 
 ---
 
