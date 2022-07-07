@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="container">
-      <header>
+      <header id="navbar">
         <a href="#" class="logo">Good<span>Foods</span></a>
         <ul>
           <li>
@@ -25,10 +25,11 @@
             <a href="#">Contact</a>
           </li>
         </ul>
+        <span class="menuIcon" onclick="menuToggle()"></span>
       </header>
       <div class="content">
-        <div class="bannerText">
-          <div>
+        <div class="bannerText" id="slideshowText">
+          <div class="active">
             <h2>EAT Healthy<br />Stay Healthy</h2>
             <p>
               Living a healthier life might seem like a tall order — the
@@ -38,9 +39,31 @@
             </p>
             <a href="#">Read More</a>
           </div>
+          <div>
+            <h2>EAT Your<br />Veggies</h2>
+            <p>
+              Prep right away - make up salads and store in plastic containers
+              so they are easy to grab and go! Another prep idea is to roast (or
+              better yet for even faster cooking - AIR FRY) a large batch of
+              vegetables that you can eat throughout the week.
+            </p>
+            <a href="#">Read More</a>
+          </div>
+          <div>
+            <h2>Good Food<br />Good Mood</h2>
+            <p>
+              This Greek Yogurt Breakfast Bowl is the perfect way to start your
+              day. You can fill it with Greek yogurt, which is high in protein
+              and top it with your favorite healthy carbs and superfoods, which
+              gives you an energy boost.
+            </p>
+            <a href="#">Read More</a>
+          </div>
         </div>
-        <div class="bannerImg">
-          <img src="images/1.jpg" />
+        <div class="bannerImg" id="slideshow">
+          <img src="images/1.jpg" class="active" />
+          <img src="images/2.jpg" />
+          <img src="images/3.jpg" />
         </div>
       </div>
       <div class="icons">
@@ -52,10 +75,10 @@
         <div class="hp">
           <ul class="controls">
             <li>
-              <a href="#"><img src="./images/arrow.png" /></a>
+              <a href="#"><img src="./images/arrow.png" onclick="prevSlide();prevSlideText();"/></a>
             </li>
             <li>
-              <a href="#"><img src="./images/arrow(1).png" /></a>
+              <a href="#"><img src="./images/arrow(1).png" onclick="nextSlide();nextSlideText()"/></a>
             </li>
           </ul>
         </div>
