@@ -31,6 +31,6 @@ var prevSlideText = () => {
 };
 
 var menuToggle = () => {
-    var nav = document. getElementById('navbar');
-    nav.classList.toggle('active')
-}
+  var nav = document.getElementById("navbar");
+  nav.classList.toggle("active");
+};

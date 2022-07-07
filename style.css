@@ -281,16 +281,14 @@ header ul li a.active::before {
     background-size: cover;
   }
 }
-@media (max-width: 767px){
-    .container{
-        padding: 20px 30px;
-    }
-    .menuIcon {
-        
-        right: 30px;
-     
-    }
-    .icons .controls li img{
-        max-width: 40px;
-    }
+@media (max-width: 767px) {
+  .container {
+    padding: 20px 30px;
+  }
+  .menuIcon {
+    right: 30px;
+  }
+  .icons .controls li img {
+    max-width: 40px;
+  }
 }
